@@ -2,19 +2,18 @@
 
 int main() {
 
-// Variaveis
-    int numInt, dobro;
+    // Variaveis
+        int numInt, dobro;
 
-// Entrada
-    printf("Calculadora de dobro\n" "\n----------------------\n" "Digite o numero que deseja saber o dobro: ");
-    scanf("%d", &numInt);
+    // Entrada
+        printf("Calculadora de dobro\n" "\n----------------------\n" "Digite o numero que deseja saber o dobro: ");
+        scanf("%d", &numInt);
 
-// Processamento
-    dobro = numInt * 2;
+    // Processamento
+        dobro = numInt * 2;
 
-// Saida
-    printf("O dobro de %d e %d ", numInt, dobro);
+    // Saida
+        printf("O dobro de %d e %d ", numInt, dobro);
 
-return 0;
-
+    return 0;
 }
