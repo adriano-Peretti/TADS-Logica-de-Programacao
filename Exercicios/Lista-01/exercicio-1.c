@@ -20,6 +20,5 @@ int main(){
         printf("O resultado da multiplicacao: %d\n", mult);
         printf("O resultado da divisao: %d\n", div);
 
-
     return 0;
 }
