@@ -5,13 +5,15 @@ int main(){
     float peso, altura, imc;
     char genero;
 
-    printf("Digite o seu Genero (H/M): ");
+    printf("Digite o seu Genero (H/M): \n");
     scanf("%c", &genero);
 
-    printf("Digite o seu peso em Kg: ");
+    printf("Digite o seu peso em Kg: \n");
+    printf("ex: 60 quilos e 500 gramas, digite 60.5\n");
     scanf("%f", &peso);
 
-    printf("Digite a sua altura em metros: ");
+    printf("Digite a sua altura em metros: \n");
+    printf("ex: 1 metro e 54 centimentros, digite 1.54\n");
     scanf("%f", &altura);
 
     imc = peso / (altura*altura);
